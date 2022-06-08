@@ -10,9 +10,9 @@ namespace Task_15_6_6
         {
             var classes = new[]
             {
-               new Classroom { Students = {"Evgeniy", "Sergey", "Andrew"}, },
-               new Classroom { Students = {"Anna", "Viktor", "Vladimir"}, },
-               new Classroom { Students = {"Bulat", "Alex", "Galina"}, }
+                new Classroom { Students = {"Evgeniy", "Sergey", "Andrew"}, },
+                new Classroom { Students = {"Anna", "Viktor", "Vladimir"}, },
+                new Classroom { Students = {"Bulat", "Alex", "Galina"}, }
             };
             
             var allStudents = GetAllStudents(classes);
